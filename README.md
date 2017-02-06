@@ -10,5 +10,11 @@
 `$ git clone https://github.com/haopei/quickstart-angular.git`
 
 ## Getting started
- - `$ cd [directory_containing_index.html]`
- - `$ https-server -o`
+ Running `$ npm start` will start the app; see 'script' property inside package.json
+
+## TODO:
+
+ [] Gulp automating build (minify + vendor-ize)
+ [] SASS
+ [] $templateCache
+ [] tests
