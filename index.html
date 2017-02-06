@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <meta charset="utf-8">
+        <title>QuickStartAppTemplate</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/styles/main.css">
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <hr>
+        <ui-view></ui-view>
+
+        <!-- Node Modules -->
+        <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+        <script src="node_modules/angular/angular.min.js" charset="utf-8"></script>
+        <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js" charset="utf-8"></script>
+
+        <!-- App -->
+        <script src="app/app.module.js" charset="utf-8"></script>
+        <script src="app/core/core.module.js" charset="utf-8"></script>
+
+        <!-- Features -->
+        <script src="app/features/comments/comments.module.js" charset="utf-8"></script>
+        <script src="app/features/comments/comments.js" charset="utf-8"></script>
+    </body>
+</html>
