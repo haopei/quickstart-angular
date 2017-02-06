@@ -5,3 +5,7 @@ I use this repo to quickly get started with a new directory on which I can sandb
 
 ## Install
 $ git clone https://github.com/haopei/quickstart-app-template.git
+
+## Run
+ - $ cd app/
+ - $ http-server -o
